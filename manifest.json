@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Better GitHub",
+  "version": "0.1.0",
+  "description": "An extension to make Github better. Made by rootcf",
+  "permissions": ["tabs", "https://github.com/*"],
+  
+  "background": {
+    "scripts": ["content.js"]
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://github.com/*"]
+  }]
+ 
+}
