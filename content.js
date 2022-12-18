@@ -1,6 +1,11 @@
 window.onload = function(){
 setInterval(function() {
 
+if (user_username == "rootcf" && !document.getElementById("bettergithub-owner")) {
+document.querySelector('.vcard-username').insertAdjacentHTML('beforeend', '<img title="Creator of BetterGitHub" src="https://cdn-icons-png.flaticon.com/512/6364/6364343.png" id="bettergithub-owner">');
+
+}
+ 
 if (!document.getElementById("bettergithub-follows-you")){
 
 
