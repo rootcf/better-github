@@ -4,3 +4,13 @@ width:48px;
 .border-top color-border-muted pt-3 mt-3 d-none d-md-block .mt2{
 display:none;
 }
+#bettergithub-owner{
+width:18px;
+height:18px;
+margin-top:5px;
+content: "Owner";
+
+}
+#bettergithub-owner:hover{
+cursor:pointer;
+}
